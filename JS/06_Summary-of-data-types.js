@@ -43,15 +43,21 @@ const myObject ={
     valu:'89'
 };
 console.log(myObject);
-
+console.log(typeof myObject);
 
 const myfun =  function (){
     console.log(myObject);
 }
 myfun();
-
+console.log(typeof myfun);
 
 const myfun2 =  function(){
      return myfun;
 }
 myfun2();
+
+
+console.log(typeof myfun2);
+
+//ye function ki type function hi hota h but 
+//actually it is function object
